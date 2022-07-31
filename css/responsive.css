@@ -445,7 +445,10 @@
   transition: 0.3s;
 }
 
-
+.product9__style .thumbnail {
+  top: 60%;
+  left: 5px;
+}
 }
 
 
