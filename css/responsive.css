@@ -451,8 +451,22 @@
 }
 }
 
+@media (min-width: 740px) {
+  .m_hot-voucher {
+    margin: 10px 0;
+    padding: 0px 39px;
+}
+.m_hot-voucherRight img,
+.m_hot-voucherLeft img {
+  width: 44.8vw;
+}
+.product9__content img {
+  width: 40vw;
+}
 
-
-
-
+.product9__style .thumbnail {
+  left: 5px;
+  bottom: 25px;
+}
+}
 
