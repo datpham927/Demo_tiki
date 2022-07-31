@@ -448,14 +448,15 @@ auto_mHot();
 document.getElementById("homePage").addEventListener("click",function(){
         document.querySelector("#homePage .m_footer-img").src="https://frontend.tikicdn.com/_mobile-next/static/img/home/navigation/active-home.png"
         document.querySelector("#category .m_footer-img").src="https://frontend.tikicdn.com/_mobile-next/static/img/home/navigation/cate.png"
-        document.querySelector("#homePage .m_footer-title").style.color="var(--color-main)"
-
+        document.querySelector("#homePage .m_footer-title").classList.add("m_color")
+        document.querySelector("#category .m_footer-title").classList.remove("m_color")
 })
 
 document.getElementById("category").addEventListener("click",function(a){
     document.querySelector("#category .m_footer-img").src="https://frontend.tikicdn.com/_mobile-next/static/img/home/navigation/active-cate.png"
     document.querySelector("#homePage .m_footer-img").src="https://frontend.tikicdn.com/_mobile-next/static/img/home/navigation/home.png"
-    document.querySelector("#category .m_footer-title").style.color="var(--color-main)"
+    document.querySelector("#category .m_footer-title").classList.add("m_color")
+    document.querySelector("#homePage .m_footer-title").classList.remove("m_color")
 })
 
 document.getElementById("individual").addEventListener("click",function(a){
