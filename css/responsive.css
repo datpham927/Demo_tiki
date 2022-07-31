@@ -380,12 +380,6 @@
 .product9__style {
   padding-top: 10px;
 }
-.product9__style .thumbnail {
-  position: absolute;
-  top: 44%;
-  transform: translateY(44%);
-  left: 11px;
-}
 
 .background_9{
   padding: 0;
