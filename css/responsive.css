@@ -177,7 +177,7 @@
 }
 .container4_list{
   display: flex;
-  overflow: scroll;
+  overflow-x: scroll;
   margin-top: 30px;
   padding-top: 0px;
   margin-bottom: 11px;
@@ -293,7 +293,7 @@
 }
 .m_hot-img_size{
   width: 90vw;
-  transition:  0.2s ease-in;
+  transition:  0.3s ease-in;
 }
 .m_hot-img_size img{
   width: 90vw;
@@ -308,7 +308,7 @@
 }
 .m_hot-left--img{
   margin-left: -90vw;
-  transition:  0.2s ease-in;
+  transition:  0.3s ease-in;
 }
 .m_hot-voucher{
   display: flex;
