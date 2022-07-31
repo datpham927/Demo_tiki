@@ -521,7 +521,9 @@ margin-top: 4px;
       background-color: var(--color-red);
   }
   .style__Flash{
+    width: 20px;
     transition: 0.3s ease-in;
+    margin: 0 5px;
 }
 .event__flash{
     transition: 0.3s ease-in;
