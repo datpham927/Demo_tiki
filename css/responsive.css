@@ -24,7 +24,7 @@
 } */
   
 
-@media (max-width: 740px){
+@media (max-width: 1024px){
   .app{
     overflow: hidden;
   }
@@ -373,7 +373,6 @@
   font-size: 11px;
 }
 .product9__content img {
-  width: 133px;
   padding: 0;
 }
 
