@@ -1025,9 +1025,10 @@ margin-right: 10px;
 }
 
 .product9__describe{
-     display: -webkit-box;
-    -moz-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
+    overflow: hidden;
     overflow: hidden;
     text-decoration: none;
     padding: 0 10px;
