@@ -24,7 +24,7 @@
 } */
   
 
-@media (max-width: 1023px){
+@media (max-width: 740px){
   .app{
     overflow: hidden;
   }
@@ -373,11 +373,18 @@
   font-size: 11px;
 }
 .product9__content img {
+  width: 133px;
   padding: 0;
 }
 
 .product9__style {
   padding-top: 10px;
+}
+.product9__style .thumbnail {
+  position: absolute;
+  top: 44%;
+  transform: translateY(44%);
+  left: 11px;
 }
 
 .background_9{
@@ -445,10 +452,7 @@
   transition: 0.3s;
 }
 
-.product9__style .thumbnail {
-  top: 60%;
-  left: 5px;
-}
+
 }
 
 
