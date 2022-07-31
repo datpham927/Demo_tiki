@@ -953,7 +953,7 @@ margin-right: 10px;
     text-align: center;
     margin: 12px 0px 16px;
     display: -webkit-box;
-    -moz-box-orient: vertical;
+    -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
     overflow: hidden;
     font-size: 13px;

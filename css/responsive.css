@@ -450,12 +450,7 @@
   width: max-content;
   transition: 0.3s;
 }
-.webimg7-title{
-  display: -webkit-box;
--moz-box-orient: vertical;
--webkit-line-clamp: 2;
-overflow: hidden;
-}
+
 
 }
 
