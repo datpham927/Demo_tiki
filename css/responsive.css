@@ -89,12 +89,9 @@
   height: auto;
   margin-left: 20px;
 }
+.webimg1__size,
 .webimg1__left{
   margin:auto;
-  height: 31.1401vw;
-  width: 94vw;
-}
-.webim1__size {
   height: 31.1401vw;
   width: 94vw;
 }
