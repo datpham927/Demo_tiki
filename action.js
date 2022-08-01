@@ -463,3 +463,19 @@ document.getElementById("individual").addEventListener("click",function(a){
     document.querySelector("#individual .m_footer-title").classList.toggle("m_color")
 
 })
+
+  var number=0;
+function auto_background(){
+    number++;
+      if(number==1){
+        document.querySelector(".header-background img").src="https://salt.tikicdn.com/ts/banner/0f/65/5a/cc78315d8fe4d78ac876e8f9005a5cbb.png"
+      }else{
+        document.querySelector(".header-background img").src="https://salt.tikicdn.com/ts/banner/28/36/00/abb87951a2eae5110f522e47ef56e89c.png"
+      }
+     if(number>1){
+        number=0
+     }
+      setTimeout("auto_background()",3000)
+
+}
+auto_background()
