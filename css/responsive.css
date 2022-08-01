@@ -453,6 +453,14 @@
 }
 
 @media (min-width: 740px) and (max-width:1023px) {
+  .webimg1__size{
+    height: 36.14vw;
+    width: 94vw;
+  height: 27.14vw;
+  }
+  .webimg1__left {
+    height: 27.14vw;
+  }
   .m_hot-voucher {
     margin: 10px 0;
     padding: 0px 39px;
@@ -465,7 +473,12 @@
   left: 5px;
   bottom: 25px;
 }
+.product9__content--img img {
+  padding: 0;
+  width: 20vw;
 }
+}
+
 @media (min-width:1281px) and (max-width:1440px) {
   .webimg1__left,
   .webimg1__size{
