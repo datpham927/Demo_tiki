@@ -475,7 +475,7 @@ function auto_background(){
      if(number>1){
         number=0
      }
-      setTimeout("auto_background()",100)
+      setTimeout("auto_background()",4000)
 
 }
 auto_background()
