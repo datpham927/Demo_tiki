@@ -372,8 +372,10 @@
 .webimg9-img .tab-text{
   font-size: 11px;
 }
-.product9__content img {
+.product9__content--img img {
   padding: 0;
+  width: 40vw;
+
 }
 
 .product9__style {
@@ -460,10 +462,6 @@
 .m_hot-voucherLeft img {
   width: 44.8vw;
 }
-.product9__content img {
-  width: 40vw;
-}
-
 .product9__style .thumbnail {
   left: 5px;
   bottom: 25px;
