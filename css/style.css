@@ -581,8 +581,11 @@ margin-top: 4px;
   .product9{
     background-color: var(--color-white);
   }
-  .product9__content img{
-     width: 182px;
+  .product9__content--img{
+   text-align: center; 
+  }
+  .product9__content--img img{
+     width: 14vw;
      padding: 20px 20px 10px 20px;
   }
   .container2__product:hover{
@@ -1059,7 +1062,6 @@ margin-right: 10px;
     position: relative;
     cursor: pointer;
     width: 100%;
-    text-align: center;
 }
 .background_9:hover{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
