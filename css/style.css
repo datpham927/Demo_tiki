@@ -413,7 +413,7 @@ margin-top: 4px;
     width: 64.3vw;
     height: 21vw;
   }
-.webim1__size{
+.webimg1__size{
    width: 64.3vw;
     height: 21vw;
    border-radius: 4px;
@@ -474,7 +474,7 @@ margin-top: 4px;
   }
   .webimg__right2{
     position: relative;
-    width: 482px;
+    width: 37.7vw;
    overflow: hidden;
    border-radius: 4px;
   }
@@ -486,8 +486,8 @@ margin-top: 4px;
     transition: 0.3s;
   }
   .imgVideo{
-    width: 483px;
-    height: 100%;
+    width: 37.7vw;
+    height: 21vw;
     object-fit: cover;
   
   }
@@ -700,7 +700,6 @@ margin-top: 4px;
 .webimg3-imgMain .imgMain3 img,
 .webimg3-imgRight .imgRight3 img{
     border-radius: 4px;
-    height: 160px;
     width: 100%;
     object-fit: contain;
 }

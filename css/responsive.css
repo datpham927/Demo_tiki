@@ -466,4 +466,47 @@
   bottom: 25px;
 }
 }
+@media (min-width:1281px) and (max-width:1440px) {
+  .webimg1__left,
+  .webimg1__size{
+    width: 59.3vw;
+    height: 20vw;
+  }
+  .webimg1__right {
+    height: 20vw;
+  }
+     .imgVideo,
+    .webimg__right2 {
+      width: 36.5vw;
+      height: 19vw;
+    }
+    .webimg3-imgLeft .imgLeft3 img, .webimg3-imgMain .imgMain3 img, .webimg3-imgRight .imgRight3 img {
+      border-radius: 4px;
+      width: 100%;
+      object-fit: contain;
+    }
+    .webimg5 img {
+      width: 21.2vw;
+    }
+    .webimg-container6{
+      width: 1270px;
+      margin: auto;
+    }
+    .container6__img--style {
+      max-width: 614px;
+    }
+    .webimg8-img img {
+      border-radius: 20px;
+      width: 28.7vw;
+    }
+}
+
+
+
+
+
+
+
+
+
 
