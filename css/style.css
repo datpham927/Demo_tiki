@@ -411,12 +411,13 @@ margin-top: 4px;
     border-radius: 4px;
     overflow: hidden;
     width: 64.3vw;
+    border-radius: 4px;
     height: 21vw;
   }
 .webimg1__size{
    width: 64.3vw;
     height: 21vw;
-   border-radius: 4px;
+  
 
 }
 .webimg1__list--img{
