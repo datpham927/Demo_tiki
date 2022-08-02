@@ -24,7 +24,7 @@
 }
   
 
-@media (max-width: 1023px){
+@media (max-width: 1024px){
   .app{
     overflow: hidden;
   }
@@ -449,7 +449,7 @@
 }
 }
 
-@media (min-width: 740px) and (max-width:1023px) {
+@media (min-width: 740px) and (max-width:1024px) {
   .webimg1__size{
     height: 36.14vw;
     width: 94vw;

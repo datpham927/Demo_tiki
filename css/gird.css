@@ -17,7 +17,7 @@
 }
 
 
-@media (max-width: 1023px) {
+@media (max-width: 1024px) {
     .row.no-gutters {
         margin-left: 0;
         margin-right: 0;
@@ -143,7 +143,7 @@
     }
     }
 /* > PC low resolution */
-@media (min-width: 1024px) and (max-width: 1280px) {
+@media (min-width: 1025px) and (max-width: 1280px) {
     .wide {
         width: 1230px;
     }
@@ -433,7 +433,7 @@
 }
 }
 /* >= Tablet */
-@media (min-width: 740px) and (max-width: 1023px) {
+@media (min-width: 740px) and (max-width: 1024px) {
     .row {
         margin-left: -4px;
         margin-right: -4px;
