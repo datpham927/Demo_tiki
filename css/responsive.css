@@ -130,7 +130,7 @@
 
 .imgVideo {
   width: 94vw;
-  height: 40vw;
+  height: 50vw;
   object-fit: cover;
 }
 .container2{
@@ -432,7 +432,7 @@
   position: relative;
   overflow: hidden;
   width: 94vw;
-  height: 40vw;
+  height: 50vw;
   margin: auto;
  border-radius: 4px;
 }
