@@ -419,8 +419,8 @@
   -webkit-line-clamp:1;
   overflow: hidden;
 }
-.product__star::after {
-  right: -3px;
+.product__star{
+    margin: 0 8px;
 }
 .Surfing .m_footer-title:hover{
   color: var(--color-main);
