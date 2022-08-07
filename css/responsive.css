@@ -425,6 +425,9 @@
 .Surfing .m_footer-title:hover{
   color: var(--color-main);
 }
+.product__star::after{
+  right: -8px;
+}
 .m_color{
   color: var(--color-main);
 }
@@ -446,6 +449,7 @@
 
 .product9__style .thumbnail {
   left: 5px;
+  top: 48.7%;
 }
 }
 
