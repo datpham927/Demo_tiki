@@ -1,28 +1,9 @@
-@media (min-width: 740px) and (max-width: 1023px) {
-    .table-hide{
-        display: none;
-    }
-   
-    .heading__user--registerLogin{
-        font-size: 8px;
-    }
-    .product{
-        overflow: hidden;
-    }
-      .product ul{
-        display: flex;
-      }
-      .product ul li{
-        padding: 20px;
-      }
-      .product ul{
-        overflow-x: auto;
-      }
-      .product ul::-webkit-scrollbar{
-        display: none;
-      }
+
+@media (max-width: 739px) {
+  .product9__content--img{
+      padding: 0;
+  }
 }
-  
 
 @media (max-width: 1024px){
   .app{
@@ -447,13 +428,31 @@
   transition: 0.3s;
 }
 
-.product9__style .thumbnail {
-  left: 5px;
-  top: 48.7%;
-}
 }
 
 @media (min-width: 740px) and (max-width:1024px) {
+  .table-hide{
+    display: none;
+}
+
+.heading__user--registerLogin{
+    font-size: 8px;
+}
+.product{
+    overflow: hidden;
+}
+  .product ul{
+    display: flex;
+  }
+  .product ul li{
+    padding: 20px;
+  }
+  .product ul{
+    overflow-x: auto;
+  }
+  .product ul::-webkit-scrollbar{
+    display: none;
+  }
   .webimg1__size{
     height: 36.14vw;
     width: 94vw;
@@ -470,10 +469,7 @@
 .m_hot-voucherLeft img {
   width: 44.8vw;
 }
-.product9__style .thumbnail {
-  left: 5px;
-  bottom: 25px;
-}
+
 .product9__content--img img {
   padding: 0;
   width: 20vw;
