@@ -108,12 +108,6 @@
   margin-top: 17px;
 }
 
-
-.imgVideo {
-  width: 94vw;
-  height: 50vw;
-  object-fit: cover;
-}
 .container2{
   margin: 4px 0;
   width: 100%;
@@ -394,6 +388,14 @@
    line-height: 10px;
    color: black;
 }
+.m_webimg__right2  {
+  position: relative;
+  overflow: hidden;
+  width: 94%;
+  height: 100%;
+  margin: auto;
+  border-radius: 4px;
+}
 .product9__sell{
   display: -webkit-box;
   -moz-box-orient: vertical;
@@ -411,21 +413,6 @@
 }
 .m_color{
   color: var(--color-main);
-}
-.m_webimg__right2{
-  position: relative;
-  overflow: hidden;
-  width: 94vw;
-  height: 50vw;
-  margin: auto;
- border-radius: 4px;
-}
-.m_webimg__right2--list{
-  display: flex;
-  height: 100%;
-  overflow: hidden;
-  width: max-content;
-  transition: 0.3s;
 }
 
 }

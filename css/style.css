@@ -486,17 +486,23 @@ margin-top: 4px;
    overflow: hidden;
    border-radius: 4px;
   }
+  .m_webimg__right2--list,
   .webimg__right2--list{
     display: flex;
     height: 100%;
+    width: 100%;
     transition: 0.3s;
   }
+  .webimg__right2--img,
   .imgVideo{
       width: 100%;
       height: 100%;
       object-fit: cover;
+  }
+  .webimg__right2--img{
       flex-shrink: 0;
   }
+
   .time2{
     display: flex;
     justify-content: space-between;
