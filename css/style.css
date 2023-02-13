@@ -742,12 +742,13 @@ margin-top: 4px;
 }
 .container5-list{
   display: flex;
+  margin: 0 auto;
   margin-bottom: 20px;
 }
 
 .webimg5 img{
     border-radius: 20px;
-    width: 23.1vw;
+    width: auto;
 }
 .webimg5 img:hover{
     opacity: 0.9;
@@ -806,7 +807,7 @@ margin-right: 10px;
  }
       
  .container6__body--img img{
-     width: 47vw;
+     width: auto;
      object-fit: contain;
    }
  .container6__body .icon{
@@ -850,7 +851,7 @@ margin-right: 10px;
 }
 .webimg6__product{
     position: relative;
-    width: 14.85vw;
+    width: auto;
     margin-left: 15px;
     cursor: pointer;
 }
@@ -973,7 +974,7 @@ margin-right: 10px;
   }
   .webimg8-img img {
     border-radius: 20px;
-    width: 31vw;
+    width: auto;
   }
 
   .webimg8-img img:hover{
