@@ -810,6 +810,7 @@ margin-right: 10px;
  
  .container6__img--style{
      max-width: 594px;
+     flex-shrink: 0;
      border-radius: 10px;
      overflow: hidden;
      margin-left: 6px;
@@ -860,6 +861,7 @@ margin-right: 10px;
 }
 .webimg6__product{
     position: relative;
+    flex-shrink: 0;
     width: auto;
     margin-left: 15px;
     cursor: pointer;
@@ -880,6 +882,7 @@ margin-right: 10px;
     position: absolute;
     color: rgb(26, 148, 255);
     bottom: 8px;
+    font-size: 12px;
     left: 0;
     right: 0;
     text-align: center;

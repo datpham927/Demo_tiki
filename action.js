@@ -304,8 +304,8 @@ var iconRight_webImg6 = document.querySelector(
 );
 var iconLeft_webImg6 = document.querySelector(".container6__body .icon__left");
 var size_webImg6 =
-  document.getElementsByClassName("container6__body")[0].clientWidth;
-
+  document.getElementsByClassName("container6__body--img")[0].clientWidth;
+console.log("size_webImg6", size_webImg6)
 var marginLeft6 = 0;
 function marginLeft_webImg6(index) {
   if (index > max_webImg6 - size_webImg6) {
@@ -314,10 +314,8 @@ function marginLeft_webImg6(index) {
   if (index < 0) {
     marginLeft6 = max_webImg6 - size_webImg6;
   }
-  document.getElementById("container6__convertIMg").style.marginLeft =
-    "-" + marginLeft6 + "px";
+  document.getElementById("container6__convertIMg").style.transform = `translateX(-${marginLeft6}px)`
 }
-
 iconRight_webImg6.addEventListener("click", function () {
   marginLeft6 += size_webImg6;
   quantity_webImg6++;
